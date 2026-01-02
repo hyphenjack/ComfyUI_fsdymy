@@ -52,8 +52,6 @@ class ZhiPuAiNode:
         """
         return {
             "required": {
-                # "api_key":("STRING", {"default": "bd5bcd05c6352b6c27875e5011813ecd.FVMVbSe0rzQ2ITe0", "multiline": False, "dynamicPrompts": False}),
-                # "api_url":("STRING", {"default": "https://open.bigmodel.cn/api/paas/v4", "multiline": False, "dynamicPrompts": False}),
                 "prompt": ("STRING", {"default": "1girl", "multiline": True, "dynamicPrompts": False}),
                 "system_content": ("STRING", {"default": str_ai, "multiline": True,"dynamicPrompts": False}),
                 "model": ( model_list, {"default": model_list[0]}),
