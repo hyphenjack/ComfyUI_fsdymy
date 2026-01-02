@@ -1,0 +1,2 @@
+origin	https://github.com/fsdymy1024/ComfyUI_fsdymy (fetch)
+origin	https://github.com/fsdymy1024/ComfyUI_fsdymy (push)
